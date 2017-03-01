@@ -1,10 +1,13 @@
+//De array-baserte beholderne 
+
 public interface Tabell<T> extends Iterable<T> {
     /**
      * Beregner antall elementer i tabellen
      * @return      antall elementer i tabellen
      */
     public int storrelse();
-
+           
+    
     /**
      * Sjekker om tabellen er tom
      * @return      om tabellen er tom
